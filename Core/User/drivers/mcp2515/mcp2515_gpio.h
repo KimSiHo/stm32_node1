@@ -1,0 +1,9 @@
+#ifndef MCP2515_GPIO_H
+#define MCP2515_GPIO_H
+
+#include "stm32f1xx_hal.h"
+
+#define MCP2515_CS_LOW()   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET)
+#define MCP2515_CS_HIGH()  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET)
+
+#endif // MCP2515_GPIO_H

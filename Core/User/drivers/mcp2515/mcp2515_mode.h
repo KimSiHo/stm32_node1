@@ -1,0 +1,10 @@
+#ifndef MCP2515_MODE_H
+#define MCP2515_MODE_H
+
+#define MCP2515_MODE_NORMAL            0x00
+#define MCP2515_MODE_SLEEP             0x01
+#define MCP2515_MODE_LOOPBACK          0x02
+#define MCP2515_MODE_LISTENONLY        0x03
+#define MCP2515_MODE_CONFIGURATION     0x04
+
+#endif // MCP2515_MODE_H

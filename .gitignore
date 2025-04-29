@@ -1,0 +1,8 @@
+.settings/
+Debug/
+Release/
+*.launch
+*.elf
+*.bin
+*.hex
+*.map
